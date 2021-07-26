@@ -1,0 +1,10 @@
+/* pages/cloudstore/cloudstore.wxss */
+.item{
+  padding-bottom: 20rpx;
+  padding-top: 20rpx;
+}
+.play{
+  padding-top: 20rpx; 
+  display: flex;
+  justify-content: center;
+}

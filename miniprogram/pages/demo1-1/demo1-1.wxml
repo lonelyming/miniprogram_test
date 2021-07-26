@@ -1,0 +1,10 @@
+<!--pages/demo1-1/demo1-1.wxml-->
+<view>商品ID：{{good._id}}  商品名: {{good.name}}  数量：{{good.number}}  价格：{{good.price}}</view>
+
+<view><input bindinput="getPrice" class="item"></input></view>
+<view class="imgesize">
+<image src="{{good.img}}" class="img"></image>
+</view>
+<button type="primary" bindtap="update_cloud">更新商品价格</button>
+
+<button type="warn" bindtap="delete_cloud">删除商品</button>

@@ -1,0 +1,6 @@
+<!--pages/database/database.wxml-->
+<view wx:for="{{list}}" wx:for-item="FoodItem" wx:key="index">
+<view>{{index}}: 商品名:{{FoodItem.name}}, 数量:{{FoodItem.number}}, 价格:{{FoodItem.price}}</view>
+</view>
+
+<view>doc查询单条商品 商品名:{{good.name}}, 数量:{{good.number}}, 价格:{{good.price}}</view>

@@ -1,0 +1,12 @@
+<!--pages/cloudstore/cloudstore.wxml-->
+<view class="item">
+<button bindtap="chooseImg" type="primary">上传图片</button>
+<view class="play"><image wx:if="{{show_img}}" src="{{imgUrl}}"></image></view>
+</view>
+
+<view class="item">
+<button bindtap="chooseVideo" type="primary">上传视频</button>
+<view class="play"> <video wx:if="{{show_video}}" src="{{videoUrl}}"></video></view>
+
+</view>
+

@@ -1,0 +1,10 @@
+/* pages/goods/goods.wxss */
+.img {
+  width: 300rpx;
+  height: 180rpx;
+}
+.item{
+  padding-top: 5rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid gainsboro;
+}

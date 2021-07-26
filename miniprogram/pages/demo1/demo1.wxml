@@ -1,0 +1,14 @@
+<!--pages/demo1/demo1.wxml-->
+输入商品名
+<input bindinput="getName"></input>
+输入商品数量
+<input type="number" bindinput="getNumber"></input>
+输入商品价格
+<input type="number" bindinput="getPrice"></input>
+<button type="primary" bindtap="addGood">添加商品</button>
+<view wx:for="{{list}}" wx:key="index">
+<button bindtap="goDetail" data-name="{{item.name}}">商品名: {{item.name}} 价格：{{item.price}}</button>
+</view>
+<button type="default" bindtap="order" data-flag='asc'>商品价格升序</button>
+<button type="default" bindtap="order" data-flag='desc'>商品价格降序</button>
+<button type="primary" bindtap="limit">返回三条数据</button>

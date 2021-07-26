@@ -1,0 +1,2 @@
+<!--pages/cloudfunction/cloudfunction.wxml-->
+<text>{{openid}}</text>
